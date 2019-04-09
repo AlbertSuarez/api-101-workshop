@@ -11,7 +11,7 @@
 
 ## Introduction
 
-This workshop has the goal of introducing the concept of the APIs and learning how to interact with them. In order to understand the concept of how generic the APIs are, we are gonna see different examples in different programming languages such as Java, Javascript, PHP, Python or directly through the Shell.
+This workshop has the goal of introducing the concept of the APIs and learning how to interact with them. In order to understand the concept of how generic the APIs are, we are gonna see different examples in different programming languages such as [Java](/java/README.md), [Javascript](/javascript/README.md), [PHP](/php/README.md), [Python](/python/README.md) or directly through the [Shell](/shell/README.md).
 
 ## APIs
 
