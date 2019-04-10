@@ -28,20 +28,20 @@ This [script](src/OpenBreweryDB.js) will use a JSON response like this one:
 
 ```json
 [ { 
-    id: 385,
-    name: 'Black Hammer Brewing',
-    brewery_type: 'micro',
-    street: '544 Bryant St',
-    city: 'San Francisco',
-    state: 'California',
-    postal_code: '94107-1217',
-    country: 'United States',
-    longitude: '-122.3969947',
-    latitude: '37.780655',
-    phone: '4155002273',
-    website_url: 'http://www.blackhammerbrewing.com',
-    updated_at: '2018-08-23T23:25:33.033Z',
-    tag_list: []
+    "id": 385,
+    "name": "Black Hammer Brewing",
+    "brewery_type": "micro",
+    "street": "544 Bryant St",
+    "city": "San Francisco",
+    "state": "California",
+    "postal_code": "94107-1217",
+    "country": "United States",
+    "longitude": "-122.3969947",
+    "latitude": "37.780655",
+    "phone": "4155002273",
+    "website_url": "http://www.blackhammerbrewing.com",
+    "updated_at": "2018-08-23T23:25:33.033Z",
+    "tag_list": []
   }
 ]
 ```
