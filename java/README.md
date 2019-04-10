@@ -4,7 +4,7 @@
 
 To install all of the dependencies, please follow the next steps:
 
-1. Install Java [[Ubuntu](https://www.digitalocean.com/community/tutorials/how-to-install-java-with-apt-on-ubuntu-18-04) | [Mac](https://java.com/en/download/help/mac_install.xml)]
+1. Install Java [[Ubuntu](https://www.digitalocean.com/community/tutorials/how-to-install-java-with-apt-on-ubuntu-18-04) or [Mac](https://java.com/en/download/help/mac_install.xml)]
 
 ## APIs
 
