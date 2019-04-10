@@ -16,7 +16,7 @@ Random pictures of dogs.
 java src/RandomDog.java
 ```
 
-This script will print the JSON response of the API request. An example of JSON would be:
+This [script](src/RandomDog.java) will print the JSON response of the API request. An example of JSON would be:
 
 ```json
 {
