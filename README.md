@@ -80,7 +80,17 @@ This type of parameter is being used in the four types of the methods but not 10
 
 This kind of input is only allowed in POST and PUT methods. This is usually useful for letting the request know which data should be added or modified. There are a bunch of [different request bodies](http://www.iana.org/assignments/media-types/media-types.xhtml), where you can specify which one as a header using `Content-Type` parameter. Howerver, the most common one is `application/json`.
 
-## APIs
+## Tools
+
+### Postman
+
+[Postman](https://www.getpostman.com/) is one of the most famous, if not the most, tools for firing requests to an API. It is very lightweight and fast. Requests can be organized in groups, also tests can be created with verifications for certain conditions on the response. With its features, it is very good and convenient API tool. It is possible to make different kinds of HTTP requests – *GET*, *POST*, *PUT* and *DELETE*. It is possible to add headers to the requests.
+
+### RapidAPI
+
+[RapidAPI](https://rapidapi.com/) is the biggest API markplace in the world. If you want to test a lot of APIs quickly then you are gonna find the tool very useful. With only one account you can setup thousands of APIs so much faster than doing it separetly one by one.
+
+## Free-access APIs
 
 To find a bunch of cool APIs in general, check out this [GitHub repository](https://github.com/toddmotto/public-apis) with an endless list of free-access APIs.
 
