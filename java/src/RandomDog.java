@@ -38,7 +38,8 @@ public class RandomDog {
                 }
             }
 
-            System.out.println(content.toString());
+            String contentString = content.toString();
+            System.out.println(contentString);
 
         } finally {
             con.disconnect();

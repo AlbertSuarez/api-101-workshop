@@ -2,7 +2,6 @@
     $API_DOMAIN = "https://www.metaweather.com/api/location";
     $CITY = "barcelona";
     
-    # First API Call
     $curl = curl_init();
     $url = sprintf("%s/%s/?%s", $API_DOMAIN, "search", http_build_query(array("query" => $CITY)));
     curl_setopt($curl, CURLOPT_URL, $url);
@@ -10,12 +9,10 @@
     $response = (string) curl_exec($curl);
     curl_close($curl);
     $result = json_decode($response, true);
-    $city_id = $result[0]["woeid"];
-    echo "City ID: " . $city_id . "\n\n";
+    echo "City ID: " . $result[0]["woeid"] . "\n\n";
 
-    # Second API Call
     $curl = curl_init();
-    $url = sprintf("%s/%s/", $API_DOMAIN, $city_id);
+    $url = sprintf("%s/%s/", $API_DOMAIN, $result[0]["woeid"]);
     curl_setopt($curl, CURLOPT_URL, $url);
     curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
     $response = (string) curl_exec($curl);
